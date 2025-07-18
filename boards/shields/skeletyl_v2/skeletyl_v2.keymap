@@ -21,34 +21,34 @@
         m_smile: m_smile {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-	    	    wait-ms = <35>;
-	    tap-ms = <35>;
+	    	    wait-ms = <20>;
+	    tap-ms = <20>;
             bindings
                 = < &kp COLON  &kp RPAR>;
         };
         m_email: m_email {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-	    	    wait-ms = <35>;
-	    tap-ms = <35>;
+	    	    wait-ms = <20>;
+	    tap-ms = <20>;
             bindings
 	      = < &kp M &kp E  &kp T  &kp A &kp L &kp N  &kp W  &kp O  &kp O  &kp D  &kp AT  &kp G &kp M &kp A &kp I  &kp L  &kp DOT &kp C &kp O &kp M>;
         };
         m_joy: m_joy {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-	    	    wait-ms = <35>;
-	    tap-ms = <35>;
+	    	    wait-ms = <20>;
+	    tap-ms = <20>;
             bindings
                 = < &kp COLON &kp J &kp O &kp Y &kp COLON >;
         };
        m_cd: m_cd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-	    wait-ms = <35>;
-	    tap-ms = <35>;
+	    wait-ms = <20>;
+	    tap-ms = <20>;
             bindings
-                = < &kp C &kp D >;
+                = < &kp C &kp D &kp SPACE>;
         };
     
     };
@@ -56,28 +56,28 @@
         compatible = "zmk,combos";
 
         TAB_COMBO {
-	  timeout-ms = <35>;
+	  timeout-ms = <20>;
             bindings = <&kp TAB>;
             key-positions = <1 2>;
             layers = <0>;
         };
 
         CAPS_WORD_COMBO {
-	  	  timeout-ms = <35>;
+	  	  timeout-ms = <20>;
             bindings = <&caps_word>;
             key-positions = <27 28>;
             layers = <0>;
         };
 
         RETURN_COMBO  {
-	  	  timeout-ms = <35>;
+	  	  timeout-ms = <20>;
             bindings = <&kp ENTER>;
             key-positions = <26 27>;
             layers = <0>;
         };
 
         BACKSPACE_COMBO {
-	  	  timeout-ms = <35>;
+	  	  timeout-ms = <20>;
             bindings = <&kp BSPC>;
             key-positions = <6 7>;
             layers = <0>;
