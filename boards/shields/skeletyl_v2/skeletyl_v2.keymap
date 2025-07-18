@@ -70,7 +70,7 @@
             bindings = <
 	      &kp SEMI &kp COMMA  &kp DOT  &kp P   &kp Y                       &kp F  &kp G  &kp C  &kp R  &kp L
     &hm LGUI A  &hm LALT O  &hm LCTRL E &hm LSHFT U &lt NAV I                      &lt FUN D  &hm LSHFT H &hm LCTRL T &hm LALT N      &hm LGUI S
-    &kp SQT     &kp RALT Q  &lt EMAC J &lt SEC_SYM K  &kp X                    &kp B  &lt SEC_SYM M  &kp W   &kp V    &kp Z
+    &kp SQT     &kp  Q  &lt EMAC J &lt SEC_SYM K  &kp X                    &kp B  &lt SEC_SYM M  &kp W   &kp V    &kp Z
                  &lt SYM ESC &lt NUMPAD TAB   &lt MEDIA TAB                    &lt WM ENTER &lt SYM ENTER    &lt SYM SPACE
             >;
         };
