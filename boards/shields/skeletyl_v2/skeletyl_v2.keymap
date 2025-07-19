@@ -66,13 +66,13 @@
 	  timeout-ms = <40>;
             bindings = <&kp RBRC>;
             key-positions = <25 26>;
-            layers = <0>;
+            layers = <1>;
         };
 	LBRC_COMBO {
 	  timeout-ms = <40>;
             bindings = <&kp LBRC>;
-            key-positions = <23 24>;
-            layers = <0>;
+            key-positions = < 24 25>;
+            layers = <1>;
         };
 
         CAPS_WORD_COMBO {
@@ -93,7 +93,7 @@
 	  	  timeout-ms = <40>;
             bindings = <&kp BSPC>;
             key-positions = <6 7>;
-            layers = <0>;
+            layers = <-1>;
         };
 
         
