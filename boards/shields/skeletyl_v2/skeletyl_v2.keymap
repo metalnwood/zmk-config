@@ -91,7 +91,7 @@
         };
 
         BACKSPACE_COMBO {
-	  	  timeout-ms = <50>;
+	  	  timeout-ms = <60>;
             bindings = <&kp BSPC>;
             key-positions = <6 7>;
             layers = <0 1 2 3>;
@@ -169,8 +169,8 @@
 
         nav {
             bindings = <
-    &none       &none       &none       &none       &none                           &kp PG_DN    &kp HOME  &kp UP  &kp END &kp BSPC 
-    &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHFT   &none                           &kp PG_UP    &kp LEFT    &kp DOWN    &kp RIGHT       &kp DEL
+    &none       &none       &none       &none       &none                           &kp PG_UP    &kp HOME  &kp UP  &kp END &kp BSPC 
+    &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHFT   &none                           &kp PG_DN    &kp LEFT    &kp DOWN    &kp RIGHT       &kp DEL
     &none       &none       &none       &none       &none                           &kp INS     &kp PG_DN    &kp DOWN    &kp PG_UP   &kp END
                                         &none       &trans  &none       &kp RET     &kp BSPC    &kp DEL     
             >;
