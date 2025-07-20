@@ -50,7 +50,7 @@
             bindings
                 = < &kp C &kp D &kp SPACE>;
         };
-    
+
     };
 
   combos {
@@ -91,13 +91,13 @@
         };
 
         BACKSPACE_COMBO {
-	  	  timeout-ms = <40>;
+	  	  timeout-ms = <50>;
             bindings = <&kp BSPC>;
             key-positions = <6 7>;
-            layers = <0 2 3>;
+            layers = <0 1 2 3>;
         };
-
-        
+  
+    
     };
   
     behaviors {
