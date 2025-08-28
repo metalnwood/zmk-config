@@ -120,7 +120,7 @@
 	      &kp SEMI &kp COMMA  &kp DOT  &kp P   &kp Y                       &kp F  &kp G  &kp C  &kp R  &kp L
     &hm LGUI A  &hm LALT O  &hm LCTRL E &hm LSHFT U &lt NAV I                      &lt FUN D  &hm LSHFT H &hm LCTRL T &hm LALT N      &hm LGUI S
     &kp SQT     &kp  Q  &lt EMAC J &lt SEC_SYM K  &kp X                    &kp B  &lt SEC_SYM M  &kp W   &kp V    &kp Z
-                 &lt SYM ESC &lt NUMPAD TAB   &lt MEDIA TAB                    &lt WM ENTER &lt SYM ENTER    &lt SYM SPACE
+                 &lt SYM ESC &lt EMAC TAB   &lt MEDIA TAB                    &lt WM ENTER &lt SYM ENTER    &lt SYM SPACE
             >;
         };
         sym {
@@ -143,17 +143,17 @@
 	numpad {
             bindings = <
     &kp LBKT    &kp N7  &kp N8  &kp N9  &kp RBKT                        &kp STAR &kp N7  &kp N8  &kp N9  &kp MINUS 
-    &kp SEMI    &kp N4  &kp N5  &kp N6  &kp EQUAL                       &kp DOT &kp N7  &kp N8  &kp N9  &kp PLUS
-    &kp GRAVE   &kp N1  &kp N2  &kp N3  &kp BSLH                        &kp N0 &kp N7  &kp N8  &kp N9  &kp FSLH
+    &kp SEMI    &kp N4  &kp N5  &kp N6  &kp EQUAL                       &kp DOT &kp N4  &kp N5  &kp N6  &kp PLUS
+    &kp GRAVE   &kp N1  &kp N2  &kp N3  &kp BSLH                        &kp N0 &kp N1  &kp N2  &kp N3  &kp FSLH
                                 &kp DOT &kp N0      &kp MINUS   &kp SPACE   &kp ENTER  &kp SPACE
 	      
             >;
         };
 	emacs {
             bindings = <
-    &kp LBKT    &kp N7  &kp N8  &kp N9  &kp RBKT                        &kp STAR &kp N7  &kp N8  &kp N9  &kp MINUS 
-    &kp SEMI    &kp N4  &kp N5  &kp N6  &kp EQUAL                       &kp DOT &kp N7  &kp N8  &kp N9  &kp PLUS
-    &kp GRAVE   &kp N1  &kp N2  &kp N3  &kp BSLH                        &kp N0 &kp N7  &kp N8  &kp N9  &kp FSLH
+    &kp LBKT    &kp N7  &kp N8  &kp N9  &kp RBKT                        &kp STAR &kp LC(N7)  &kp LC(N8)  &kp LC(N9)  &kp MINUS 
+    &kp SEMI    &kp N4  &kp N5  &kp N6  &kp EQUAL                       &kp DOT  &kp LC(N4)  &kp LC(N5)  &kp LC(N6)  &kp PLUS
+    &kp GRAVE   &kp N1  &kp N2  &kp N3  &kp BSLH                        &kp N0   &kp LC(N1)  &kp LC(N2)  &kp LC(N3)  &kp FSLH
                                 &kp DOT &kp N0      &kp MINUS   &kp SPACE   &kp ENTER  &kp SPACE
 	      
             >;
