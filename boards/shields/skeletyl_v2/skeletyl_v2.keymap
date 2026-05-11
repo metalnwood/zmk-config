@@ -96,6 +96,18 @@
             key-positions = <6 7>;
             layers = <0 1 2 3>;
         };
+	HYPHEN_COMBO {
+	  	  timeout-ms = <40>;
+            bindings = <&kp MINUS>;
+            key-positions = <16 17 18>;
+            layers = <0 1 2 3>;
+        };
+	UNDS_COMBO {
+	  	  timeout-ms = <40>;
+            bindings = <&kp UNDER>;
+            key-positions = <26 27 28>;
+            layers = <0 1 2 3>;
+        };
   
     
     };
